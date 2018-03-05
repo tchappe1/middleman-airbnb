@@ -7,35 +7,71 @@
 
 #team{
 height: 80vh;
-background-image: linear-gradient(0deg, #fff 50%, #F4F4F4 50%);
+background-image: linear-gradient(0deg, #fff 50%, $orange 50%);
 display: flex;
 align-items: center;
 justify-content: center;
-}
+    h1{
+        font-family: "Varela", "Helvetica", "sans-serif";
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        color: rgba(0,0,0,0.7);
+    }
 
-h1{
-    font-family: "Varela", "Helvetica", "sans-serif";
-    font-size: 30px;
-    font-weight: bolder;
-    margin-bottom: 30px;
-    margin-top: 0px;
-    color: rgba(0,0,0,0.7);
-}
+    h2{
 
-h2{
+      font-size: 17px;
+        font-weight: bold;
+        color: rgba(0,0,0,0.6);
+    }
 
-  font-size: 17px;
+    a{
+    color: rgba(0,0,0,0.25);
     font-weight: bold;
-    color: rgba(0,0,0,0.6);
-}
+    letter-spacing: -0.5px;
+    font-size: 15px;
+    }
 
-a{
-color: rgba(0,0,0,0.25);
-font-weight: bold;
-letter-spacing: -0.5px;
-font-size: 15px;
-}
+    .fa{
+      color: #C2413A;
+    }
 
-.fa{
-  color: #C2413A;
+
+
+    }
+
+
+
+
+
+
+
+
+    h1{
+        font-family: "Varela", "Helvetica", "sans-serif";
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        color: rgba(0,0,0,0.7);
+    }
+
+    h2{
+
+      font-size: 17px;
+        font-weight: bold;
+        color: rgba(0,0,0,0.6);
+    }
+
+    a{
+    color: rgba(0,0,0,0.25);
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    font-size: 15px;
+    }
+
+    .fa{
+      color: #C2413A;
 }
