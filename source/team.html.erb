@@ -1,0 +1,19 @@
+---
+
+---
+
+<div id="team">
+  <div class="team-content">
+    <h1>This template is built with  <i class="fa fa-heart"></i> by</h1>
+    <ul class="list-inline text-center">
+      <% [{alias: "Rubenberna", name: "Ruben Berna"}, {alias: "tchappe1", name: "Thierry Chappé"}].each do |gh_username| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username[:alias]}", class: "img-circle" %>
+          <h2><%= gh_username[:name]%></h2>
+          <a href="http://github.com/<%=gh_username[:alias]%>" target="blank"><i class="fa fa-github"></i> <%=gh_username[:alias]%></a>
+        </li>
+      <% end %>
+    </ul>
+
+  </div>
+</div>
